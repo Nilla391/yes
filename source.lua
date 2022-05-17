@@ -1,8 +1,8 @@
-if getgenv().NillawareSettings == nil then
+if getgenv().PuppywareSettings == nil then
 
     print("Cannot find your configuration.")
 
-    getgenv().NillawareSettings = {
+    getgenv().PuppywareSettings = {
         PerformanceMode = true,
         turksense = false,
         TargetKey = "E"
@@ -14,18 +14,18 @@ wait(0.5)
 
 
 
-getgenv().NillawareSettings = {
+getgenv().PuppywareSettings = {
     PerformanceMode = true,
     turksense = false,
     TargetKey = "Q",
     Watermark = false
 }
 
-local NillawareSettings = getgenv().NillawareSettings
+local PuppywareSettings = getgenv().PuppywareSettings
 
-if NillawareSettings == nil then
+if PuppywareSettings == nil then
 
-getgenv().NillawareSettings = {
+getgenv().PuppywareSettings = {
     PerformanceMode = true,
     turksense = false,
     TargetKey = "E",
