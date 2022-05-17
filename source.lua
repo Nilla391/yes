@@ -1,8 +1,8 @@
-if getgenv().PuppywareSettings == nil then
+if getgenv().NillawareSettings == nil then
 
     print("Cannot find your configuration.")
 
-    getgenv().PuppywareSettings = {
+    getgenv().NillawareSettings = {
         PerformanceMode = true,
         turksense = false,
         TargetKey = "E"
@@ -14,18 +14,18 @@ wait(0.5)
 
 
 
-getgenv().PuppywareSettings = {
+getgenv().NillawareSettings = {
     PerformanceMode = true,
     turksense = false,
     TargetKey = "Q",
     Watermark = false
 }
 
-local PuppywareSettings = getgenv().PuppywareSettings
+local NillawareSettings = getgenv().NillawareSettings
 
-if PuppywareSettings == nil then
+if NillawareSettings == nil then
 
-getgenv().PuppywareSettings = {
+getgenv().NillawareSettings = {
     PerformanceMode = true,
     turksense = false,
     TargetKey = "E",
@@ -53,10 +53,10 @@ KillSay = {
     Message = {
         "@s is sus.",
         "nn tapped, @s bad cheat.",
-        "puppyware on top, @s is clapped.",
+        "nillaware on top, @s is clapped.",
         "@s is rekted.",
-        "puppyware>you",
-        "you are just bad get puppyware",
+        "nillaware>you",
+        "you are just bad get nillaware",
         "u rly thought",
         "bad boy clique",
         "noob",
